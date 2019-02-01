@@ -10,7 +10,7 @@ Ahora crearemos una carpeta donde estarán todos nuestros proyectos y entraremos
 - Zona virtual y descargando django:
 Crearemos una zona virtual y descargaremos django con pip: **_"python3.6 -m venv my_env"_** y para activar la zona virtual **_"source my_env/bin/activate"_**, todo esto dentro de la carpeta de nuestor proyecto, descargamos django --> **_"pip install django"_**, podemos verificar la instalación **_"django-admin --version"_**
 
-Para crear un proyecto: **_"django-admin startproject mysite"_** en la carpeta newproject buscaremos el archivo settings.py dentro de este editaremos poniendo nuestra IP o * que permitirá todos los hosts **_ALLOWED_HOST =['*']_**.
+-Proyecto nuevo y encendiendo server: Para crear un proyecto: **_"django-admin startproject mysite"_** en la carpeta newproject buscaremos el archivo settings.py dentro de este editaremos poniendo nuestra IP o * que permitirá todos los hosts **_ALLOWED_HOST =['*']_**.
 Entramos en la carpeta mysite para encender el server --> **_"ufw allow 8000"_**  **_"python manage.py runserver nuestraIP:8000"_**. 
 ## Conectar Github
 Conectaremos el proyecto creado anteriormente en nuestro ubuntu-server al github.
