@@ -16,7 +16,9 @@ Entramos en la carpeta mysite para encender el server --> **_"ufw allow 8000"_**
 Conectaremos el proyecto creado anteriormente en nuestro ubuntu-server al github.
 - Decargamos ---> **_apt-get install git"_**.
 - Iniciamos sesión en git dentro del ubuntu --> **_git init_**, **_git config --global user.name "Tu nombre"_** y **_git config --global user.email "email"_**, podemos ver el estado de git con **_git status_**
-- Añadimos repositorio y primer commit
+- Añadimos repositorio y primer commit: git add **_"repositorio"_** y hacemos el commit **_git commit -m "mi primer commit"_**
+- Ahora crearemos un repositorio desde la página web de github y nos dará un link, en el ubuntu server pondremos lo siguiente **_"git remote add origin "nuestro link""_**
+- Hacemos el push **_git push -u origin master_**
 
 
 
