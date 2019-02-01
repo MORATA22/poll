@@ -1,0 +1,37 @@
+li a {
+    color: green;
+}
+
+body {
+    background-color: #75ACF2;
+    font-family: cursive;
+}
+
+#poll {
+    position: absolute;
+    left: 400px;
+    width: 650px;
+    height: 650px;
+    border-style: solid;
+    padding: 10px 10px 10px 10px;
+    background-color: #2bf9a5;
+}
+
+#question {
+    top: 100px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+    margin-right: 100px;
+}
+
+#butt {
+    margin-left: 130px;
+}
+
+#menos {
+    margin-left: 160px;
+    background-color: White;
+}
+
+
+
