@@ -19,3 +19,8 @@ Conectaremos el proyecto creado anteriormente en nuestro ubuntu-server al github
 - Añadimos repositorio y primer commit: git add **_"repositorio"_** y hacemos el commit **_git commit -m "mi primer commit"_**
 - Ahora crearemos un repositorio desde la página web de github y nos dará un link, en el ubuntu server pondremos lo siguiente **_"git remote add origin "nuestro link""_**
 - Hacemos el push **_git push -u origin master_**
+
+##Borrar directorio solo de la web de Github
+git rm -r --cached FolderName
+git commit -m "Removed folder from repository"
+git push origin master
