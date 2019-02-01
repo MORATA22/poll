@@ -3,7 +3,7 @@ En este proyecto a partir del Framework Django he creado una página web que mue
 ## Prerequisitos
 - Ubuntu-server 18.04
 ## Instalación
-Antes de todo Actualizamos --> **_sudo apt update y sudo apt upgrade_**.
+- Antes de todo Actualizamos --> **_sudo apt update y sudo apt upgrade_**.
 En nuestro ubuntu server escribiremos la comanda **_"Python3  -V"_** para ver la versión de python que tenemos instalada.
 Sinó tenemos la versión 3 de python la descargamos: **_"sudo apt install python3-pip"_** y **_"sudo apt install python3-venv"_**.
 Ahora crearemos una carpeta donde estarán todos nuestros proyectos y entraremos en ella :**_"mkdir ~/newproject"_** para entrar en la carpeta pones la ruta **_"cd ~/newproject"_**.
